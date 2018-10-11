@@ -1,0 +1,28 @@
+package GuiTool.Global;
+
+import java.util.*;
+
+public class LexItems
+{
+    // public contructor
+    public LexItems(String inLine, Vector lexItems)
+    {
+        inLine_ = inLine;
+        lexItems_ = lexItems;
+    }
+
+    // public method
+    public String GetInLine()
+    {
+        return inLine_;
+    }
+
+    public Vector GetLexItems()
+    {
+        return lexItems_;
+    }
+
+    // data member
+    private String inLine_ = null;
+    private Vector lexItems_ = null;
+}
